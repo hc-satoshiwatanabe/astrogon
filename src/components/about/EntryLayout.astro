@@ -21,7 +21,7 @@ const { Content } = await render(entry);
       <div class="row justify-center items-center">
         {
           image && (
-            <div class="md:col-4 lg:col-3 mb-8 md:mb-0 intersect:animate-fadeUp opacity-0 intersect-no-queue">
+            <div class="md:col-4 lg:col-3 mb-8 md:mb-0">
               <div class="glass rounded-xl p-6 text-center">
                 <Image
                   class="mx-auto rounded-lg w-48 lg:w-56"
@@ -35,7 +35,7 @@ const { Content } = await render(entry);
             </div>
           )
         }
-        <div class="md:col-8 lg:col-7 intersect:animate-fadeUp opacity-0 intersect-no-queue" style="animation-delay: 100ms;">
+        <div class="md:col-8 lg:col-7">
           <h1 set:html={markdownify(title)} class="mb-4" />
           <p class="text-lg leading-relaxed">
             {description}
@@ -49,7 +49,7 @@ const { Content } = await render(entry);
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
-        <div class="lg:col-11 intersect:animate-fadeUp opacity-0 intersect-no-queue">
+        <div class="lg:col-11">
           <div class="glass rounded-xl p-8 lg:p-12">
             <div class="content">
               <Content />
