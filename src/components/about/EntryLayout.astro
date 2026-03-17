@@ -15,24 +15,46 @@ const { Content } = await render(entry);
 ---
 
 <BaseLayout title={title} description={description} image={image?.src}>
+  <!-- Hero Section -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center items-center">
+        {
+          image && (
+            <div class="md:col-4 lg:col-3 mb-8 md:mb-0 intersect:animate-fadeUp opacity-0 intersect-no-queue">
+              <div class="glass rounded-xl p-6 text-center">
+                <Image
+                  class="mx-auto rounded-lg w-48 lg:w-56"
+                  src={image}
+                  alt={imageAlt}
+                  width={1024}
+                  height={1024}
+                  loading="eager"
+                />
+              </div>
+            </div>
+          )
+        }
+        <div class="md:col-8 lg:col-7 intersect:animate-fadeUp opacity-0 intersect-no-queue" style="animation-delay: 100ms;">
+          <h1 set:html={markdownify(title)} class="mb-4" />
+          <p class="text-lg leading-relaxed">
+            {description}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
-        <div class="glass rounded-lg text-center p-8 md:col-10 lg:col-7 intersect:animate-fadeUp opacity-0 intersect-no-queue">
-          {
-            image && (
-              <Image
-                class="mx-auto mb-6 rounded-lg w-64"
-                src={image}
-                alt={imageAlt}
-                width={1024}
-                height={1024}
-                loading="eager"
-              />
-            )
-          }
-          <h2 set:html={markdownify(title)} class="h3 mb-6" />
-            <Content />
+        <div class="lg:col-11 intersect:animate-fadeUp opacity-0 intersect-no-queue">
+          <div class="glass rounded-xl p-8 lg:p-12">
+            <div class="content">
+              <Content />
+            </div>
+          </div>
         </div>
       </div>
     </div>
