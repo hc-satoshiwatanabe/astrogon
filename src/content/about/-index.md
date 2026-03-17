@@ -1,8 +1,37 @@
 ---
-title: Hey, I'm Jane Doe!
-description: this is meta description
-image: "@assets/profile/jane-doe.jpg"
+title: BIオプションとは
+description: 一源クラウドのBIオプションは、販売管理データをリアルタイムに分析・可視化するビジネスインテリジェンスツールです。
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+## 一源クラウド BIオプション
+
+一源クラウドのBIオプションは、販売管理システムに蓄積された売上・仕入データを、グラフやランキングでリアルタイムに可視化するビジネスインテリジェンスツールです。
+
+### 主な特長
+
+- **多彩な分析ビュー** — 構成比分析、累計推移、ランキングなど50以上のレポートページを搭載
+- **リアルタイムデータ** — フィルター条件を設定して「取得」ボタンを押すだけで最新データを表示
+- **柔軟なフィルタリング** — 期間、倉庫、取引先、商品、担当者、都道府県など多軸での絞り込みが可能
+- **ピボット/グリッド切り替え** — グラフ表示と一覧表示をワンクリックで切り替え
+- **データエクスポート** — CSVファイルへのエクスポートや印刷に対応
+- **プリセット機能** — よく使うフィルター条件を保存して素早くデータ取得
+
+### 分析カテゴリ
+
+| カテゴリ | 内容 |
+|---|---|
+| 販売日計 | 商品別の日別売上データを横棒グラフで表示 |
+| 構成比分析 | 商品別・取引先別・都道府県別・担当者別の売上構成比 |
+| 倉庫別分析 | 倉庫ごとの売上金額・数量を月別に分析 |
+| 月次推移 | 総売上・戻入・純売上の月次推移を前期比較 |
+| 累計推移 | 総売上・純売上の累計推移を年度比較 |
+| 累計推移（分類別） | 商品・取引先・都道府県・担当者・輸出国別の累計推移 |
+| 売上ランキング | 金額・数量ベースでの多軸ランキング |
+| 戻入ランキング | 戻入金額・数量のランキング分析 |
+| 仕入ランキング | 仕入先別・商品別の金額・数量ランキング |
+| 返金・返品ランキング | 返金金額・返品数量のランキング分析 |
+
+### 対象ユーザー
+
+一源クラウドをご利用中のすべてのお客様にご活用いただけます。経営者、営業マネージャー、仕入担当者など、データに基づいた意思決定を行うすべての方にお勧めです。

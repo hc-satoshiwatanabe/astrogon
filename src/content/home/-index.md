@@ -1,9 +1,7 @@
 ---
-image: "@assets/astrogon-star.svg"
-imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
+title: 一源クラウド BIオプション
+content: 売上・仕入データをリアルタイムに可視化。構成比分析、累計推移、ランキングなど多彩なレポートで、データドリブンな経営判断を支援します。
 button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+  label: 操作マニュアルを見る
+  link: /manual
 ---

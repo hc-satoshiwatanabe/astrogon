@@ -1,0 +1,23 @@
+---
+import BaseLayout from "@components/base/BaseLayout.astro";
+---
+
+<BaseLayout title="操作マニュアル | 一源クラウド BIオプション" description="一源クラウド BIオプションの操作マニュアルです。全ページの機能と操作方法をスクリーンショット付きでご紹介します。">
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <h1 class="mb-4 text-center">操作マニュアル</h1>
+          <p class="mb-8 text-center">全ページの機能と操作方法をスクリーンショット付きでご紹介します。</p>
+          <div class="glass rounded-lg overflow-hidden" style="height: calc(100vh - 200px);">
+            <iframe
+              src="/manual.html"
+              class="w-full h-full border-0"
+              title="一源クラウド 操作マニュアル"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
